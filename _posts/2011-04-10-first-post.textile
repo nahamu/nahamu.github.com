@@ -1,0 +1,12 @@
+---
+layout: post
+title: Test Post
+---
+
+h1. {{ page.title }}
+
+p(meta). Post Date
+
+h2. Stuff
+
+Body
