@@ -1,0 +1,10 @@
+---
+layout: post
+title: Hello World
+---
+
+h1. {{ page.title }}
+
+p(meta). 2011-05-08
+
+Just getting everything in order to start writing here.

@@ -4,7 +4,7 @@ It is automatically transformed by "Jekyll":http://github.com/mojombo/jekyll int
 
 h1. License
 
-The following directories and their contents are Copyright <Your Name Here>. You may not reuse anything therein without my permission:
+The following directories and their contents are Copyright Nahum Shalman. You may not reuse anything therein without my permission:
 
 * _posts/
 * images/
