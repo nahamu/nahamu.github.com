@@ -26,9 +26,8 @@ default smartos
 prompt 1
 timeout 50
 label smartos
-  MENU LABEL SmartOS
-  kernel smartos/mboot.c32
-  append smartos/platform/i86pc/kernel/amd64/unix -B console=text,standalone=true,noimport=true,root_shadow='$5$2HOHRnK3$NvLlm.1KQBbB0WjoP7xcIwGnllhzp2HnT.mDO7DpxYA' --- smartos/platform/i86pc/amd64/boot_archive
+kernel smartos/mboot.c32
+append smartos/platform/i86pc/kernel/amd64/unix -B console=text,standalone=true,noimport=true,root_shadow='$5$2HOHRnK3$NvLlm.1KQBbB0WjoP7xcIwGnllhzp2HnT.mDO7DpxYA' --- smartos/platform/i86pc/amd64/boot_archive
 </pre>
 
 ##References
