@@ -4,7 +4,7 @@ title: Serving SmartOS from your PXE server
 ---
 
 # {{ page.title }}
-<p class="meta">2011-05-08</p>
+<p class="meta">2011-08-17</p>
 (Quick and Dirty Edition)
 
 ## Assumptions
