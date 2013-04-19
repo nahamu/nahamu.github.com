@@ -6,7 +6,7 @@ title: Some quick notes on compiling and running Samba 4 on SmartOS
 # {{ page.title }}
 <p class="meta">2013-04-19</p>
 
-## Compilation
+## Setup
  1. Follow [Jonathan Perkin's instructions for setting up a pkgsrc tree for builds](http://www.perkin.org.uk/posts/pkgsrc-on-smartos-zone-creation-and-basic-builds.html) (I used 2012Q4 on base64-1.9.1)
  1. Patch the wip/samba package:
 <pre>
@@ -31,13 +31,13 @@ index f69b907..1ae2141 100644
  lib/samba/vfs/aio_pthread.so
  lib/samba/vfs/audit.so
 </pre>
- 1. Build and install samba
 
-## Running it
+## Building and Running it
+ 1. Build and install samba
  1. Run the domain setup with an extra flag
 <pre>
 samba-tool domain provision --use-ntvfs --interactive
-  <follow prompts>
+  (follow prompts)
 cp /opt/local/etc/samba/private/krb5.conf /etc/krb5/krb5.conf
 </pre>
 
