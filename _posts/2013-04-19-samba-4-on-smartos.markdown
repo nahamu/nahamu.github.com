@@ -43,4 +43,4 @@ cp /opt/local/etc/samba/private/krb5.conf /etc/krb5/krb5.conf
 
 ## Next steps
  1. Create an SMF manifest (I haven't done this yet... I'm currently just running it manually for testing)
- 1. (Also haven't done this yet: [Add the Global zone to the domain](http://wiki.smartos.org/display/DOC/Joining+SmartOS+to+an+Active+Directory+domain)
+ 1. (Also haven't done this yet:) [Add the Global zone to the domain](http://wiki.smartos.org/display/DOC/Joining+SmartOS+to+an+Active+Directory+domain)
